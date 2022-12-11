@@ -1,0 +1,30 @@
+figure img{
+    height: 300px;
+    
+}
+figure img:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+}
+figure{
+    overflow: hidden;
+}
+.layer img{
+    width: 600px;
+   
+}
+.layer{
+background-color: rgba(0, 0, 0,0.8);
+}
+.slider{
+    background-image: url("../images/item-8.jpeg");
+    background-size: 100% 100%;
+    background-position: center center;
+}
+.navbar{
+    left: 20px;
+    right: 20px;
+}
+.icons{
+    transform: translateY(-50%);
+}
