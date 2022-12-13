@@ -8,7 +8,7 @@ var index;
 
 for (var i = 0; i< allproducts.length; i++) {
       allproducts[i].addEventListener("click",function(e){
-       layer.classList.remove("d-none");
+        layer.classList.remove("d-none");
         index=allproducts.indexOf(e.target);
        var src=e.target.getAttribute("src");
        imglayer.setAttribute("src",src);
